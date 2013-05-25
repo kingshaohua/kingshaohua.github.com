@@ -1,6 +1,6 @@
-#markdown: rdiscount
+markdown: rdiscount
 permalink: /:year/:month/:day/:title/
-url: http://webfrogs.github.com
+url: http://kingshaohua.github.com
 author: kingshaohua
 pygments: true
 safe: true
