@@ -5,7 +5,6 @@ description: "博客迁移到jekyll"
 category: 网站建设
 tags: [jekyll,github]
 ---
-{% include JB/setup %}
 
 折腾了一上午，终于在GitHub上搭建好blog了。
 原来搭建在openshift上的东西先不迁移了。原博客地址：[http://blog-kingshaohua.rhcloud.com/](http://blog-kingshaohua.rhcloud.com/ "http://blog-kingshaohua.rhcloud.com/")。  
