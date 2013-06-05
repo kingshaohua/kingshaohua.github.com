@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "博客迁移到jekyll"
+title: "博客迁移到jekyll,[原博客文章不迁移，地址见内]"
 description: "博客迁移到jekyll"
 category: 网站建设
 tags: [jekyll,github]
