@@ -4,5 +4,5 @@ layout: page
 comments: yes
 ---
 
-暂无
+[http://quickmdb.com](http://quickmdb.com "QuickMDB官方博客")
 
