@@ -79,12 +79,13 @@ Credentials就可以了。
 这边我创建了两个job。点击立即构建就行了。因为我是作为开发测试用。就不配置定时构建任务了，每次需要的时候手动构建就行了。  
 OK,生活如此美好~~。  
 
-附录：Win2Unix.sh
+附录：Win2Unix.sh  
+
 	Usage()
 	{
-    	echo "Param Number can't be 0 \n"
-        echo "usage:Win2Unix  Param1, Param2 ......\n"
-        exit 1
+		echo "Param Number can't be 0 \n"
+	    echo "usage:Win2Unix  Param1, Param2 ......\n"
+	    exit 1
 	}
 	Dos2Unix()
 	{       
