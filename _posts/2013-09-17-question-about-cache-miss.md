@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "一个cache命中率的调优过程"
-description: "一个cache命中率的调优过程"
+title: "一个cache miss 的调优过程"
+description: "一个cache miss的调优过程"
 category: 性能,数据库,cache miss,性能
 tags: [性能,数据库,cache miss,性能]
 ---
