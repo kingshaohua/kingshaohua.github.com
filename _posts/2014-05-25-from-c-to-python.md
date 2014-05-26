@@ -19,12 +19,14 @@ PS：python刚使用不久，若有理解错误，请指正~
 
 ## 缩进与大括号 ##
 python中没有用大括号来标明代码段，比如C++中是这样：
+
     if(0==a)
     {printf("1");}
     else
     {printf("2");printf("3");}
 
 而python中是这样
+
     if 0==a:
     	print 1
     else:
