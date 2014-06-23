@@ -1,4 +1,4 @@
----
+w---
 layout: post
 title: "[填坑大作战]使用SFTP上传文件，并支持proxy"
 description: "use sftp with proxy"
@@ -21,6 +21,7 @@ python很好用，pexpect也很好用，一切都很美好，直到开始实现p
     
 	#sftp for pexpect，python
 	sftp_prompt='sftp>'
+	NC_BIN='nc'
 	
 	class MY_SFTP(object):
 		__server=''
