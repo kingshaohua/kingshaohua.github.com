@@ -1,4 +1,4 @@
-w---
+---
 layout: post
 title: "[填坑大作战]使用SFTP上传文件，并支持proxy"
 description: "use sftp with proxy"
