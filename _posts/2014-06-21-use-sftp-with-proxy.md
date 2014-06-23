@@ -21,7 +21,6 @@ python很好用，pexpect也很好用，一切都很美好，直到开始实现p
     
 	#sftp for pexpect，python
 	sftp_prompt='sftp>'
-	NC_BIN='nc'
 	
 	class MY_SFTP(object):
 		__server=''
@@ -67,7 +66,7 @@ python很好用，pexpect也很好用，一切都很美好，直到开始实现p
 				cmd = 'sftp '
 				cmd += ' -oPort='+self.__port+' '
 				if(self.__proxy_config[0] != 'no'):
-					cmd += '-o "ProxyCommand '+NC_BIN+' '
+					cmd += '-o "ProxyCommand nc '
 					if(self.__proxy_config[2] == 'http'):
 						cmd += ' -X connect '
 					elif(self.__proxy_config[2] == 'socks4'):
