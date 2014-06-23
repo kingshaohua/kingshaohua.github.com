@@ -277,7 +277,7 @@ nc由于写的比较早，现在有很多版本，有些版本已经不更新了
 
 ## CURL方案 ##
 
-在此祭出大名鼎鼎的libcurl库。其实我也是第一次听说，不然早就这么干了(-_-!).关于curl基本介绍，大家就自行查阅吧。虽然它主要是用来抓取网页，但也提供了对一些其他协议的封装。使用`curl -V`（大写V）可以查询本机上curl所支持的协议。php和python都
+在此祭出大名鼎鼎的libcurl库。其实我也是第一次听说，不然早就这么干了(-_-!).关于curl基本介绍，大家就自行查阅吧。虽然它主要是用来抓取网页，但也提供了对一些其他协议的封装。使用`curl -V`（大写V）可以查询本机上curl所支持的协议。php和python都只是对libcurl的接口封装，底层还是调用的libcurl函数库。所以用法、参数也很相近。
 
 	[root@localhost bin]# curl -V
 	curl 7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.34.0 OpenSSL/1.0.0 zlib/1.2.3 libidn/1.18 libssh2/1.4.3
